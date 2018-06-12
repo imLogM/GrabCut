@@ -24,6 +24,6 @@ A demo shows how to use "grab cut" algorithm in C++ and Opencv2. It is revised f
  * is possible to segment multi objects?
 
  ## Attention
- You need to change "OpenCV_DIR", "OpenCV_LIB_DIR", "OpenCV_INCLUDE_DIRS" in "CMakeList.txt".
+ In order to compile, you need to change "OpenCV_DIR", "OpenCV_LIB_DIR", "OpenCV_INCLUDE_DIRS" in "CMakeList.txt".
 
 
