@@ -7,7 +7,7 @@ A demo shows how to use "grab cut" algorithm in C++ and Opencv2. It is revised f
 * Opencv 2
 
 ## Files
-* opencv_demo.cpp: A demo show how to use "grab cut" algorithm in C++ and Opencv2+.
+* opencv_demo.cpp: A demo shows how to use "grab cut" algorithm in C++ and Opencv2+.
 
 ## Effect
 * source image
@@ -20,7 +20,7 @@ A demo shows how to use "grab cut" algorithm in C++ and Opencv2. It is revised f
 <div align=center><img src="./img/effect/result.png"/></div>
 
 ## TODO
- * reimplement "grab cut" algorithm in C++
+ * reimplement "grab cut" algorithm in pure C++
  * is possible to segment multi objects?
 
  ## Attention

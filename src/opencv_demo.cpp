@@ -31,7 +31,7 @@ void get_mouse_position(int event, int x, int y, int flags, void* param) {
 
 int main() {
     // 1. read image file
-    cv::Mat src = cv::imread("../../img/3.jpg");
+    cv::Mat src = cv::imread("../../img/1.jpg");
     assert(!src.empty());
     if (src.cols > 800 || src.rows > 800) {
         cv::resize(src, src, cv::Size(0, 0), 0.5, 0.5); // resize for speed
