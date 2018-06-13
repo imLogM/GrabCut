@@ -25,7 +25,7 @@ void get_mouse_position(int event, int x, int y, int flags, void* param) {
     } else if (event == cv::EVENT_LBUTTONUP) {
         g_x_rightdown = x;
         g_y_rightdown = y;
-        assert(g_y_rightdown > g_x_leftup && g_x_rightdown > g_x_leftup);
+        assert(g_y_rightdown > g_y_leftup && g_x_rightdown > g_x_leftup);
     }
 }
 
